@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project 3</string>
+    <string name="quiz_name">The Naruto Quiz</string>
+
+    <!-- list of all questions-->
+    <string name="question_one">1. Which Hokage sealed the nine-tailed fox inside Naruto?</string>
+    <string name="question_two">2. Who tricked Naruto into stealing a sacred scroll?</string>
+    <string name="question_three">3. Which character(s) can only use taijutsu?</string>
+    <string name="question_four">4. Naruto is aiming to become a ...</string>
+</resources>
