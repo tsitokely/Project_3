@@ -1,10 +1,12 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General Text-->
     <string name="app_name">Project 3</string>
     <string name="quiz_name">The Naruto Quiz</string>
     <string name="logo_description">Logo of the japanese manga Naruto</string>
     <string name="result">Get results</string>
     <string name="hint">Please input your response here &#8230;</string>
+    <string name="score_toast">Your score is <xliff:g id="percent">%1$.2f%%</xliff:g></string>
 
 
     <!-- list of all questions-->

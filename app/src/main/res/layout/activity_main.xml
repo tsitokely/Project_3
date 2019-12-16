@@ -22,7 +22,9 @@
 
         <LinearLayout style="@style/LinearLayoutVerticalStyle">
 
-            <RadioGroup style="@style/RadioGroupOnQuestionStyle">
+            <RadioGroup
+                android:id="@+id/R11"
+                style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
                     android:id="@+id/Q11"
@@ -35,7 +37,9 @@
                     android:text="@string/question_one_two" />
             </RadioGroup>
 
-            <RadioGroup style="@style/RadioGroupOnQuestionStyle">
+            <RadioGroup
+                android:id="@+id/R12"
+                style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
                     android:id="@+id/Q13"
@@ -48,6 +52,7 @@
                     android:text="@string/question_one_four" />
             </RadioGroup>
 
+
         </LinearLayout>
 
         <TextView
@@ -56,7 +61,9 @@
 
         <LinearLayout style="@style/LinearLayoutVerticalStyle">
 
-            <RadioGroup style="@style/RadioGroupOnQuestionStyle">
+            <RadioGroup
+                android:id="@+id/R21"
+                style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
                     android:id="@+id/Q21"
@@ -69,7 +76,9 @@
                     android:text="@string/question_two_two" />
             </RadioGroup>
 
-            <RadioGroup style="@style/RadioGroupOnQuestionStyle">
+            <RadioGroup
+                android:id="@+id/R22"
+                style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
                     android:id="@+id/Q23"
@@ -124,12 +133,14 @@
             android:text="@string/question_four" />
 
         <EditText
+            android:id="@+id/Q4"
             style="@style/EditTextStyle"
             android:hint="@string/hint"
             android:inputType="textCapWords" />
 
         <Button
             style="@style/ButtonStyle"
+            android:onClick="getResults"
             android:text="@string/result" />
     </LinearLayout>
 </ScrollView>
