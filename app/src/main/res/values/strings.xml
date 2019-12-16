@@ -1,10 +1,33 @@
 <resources>
+    <!-- General Text-->
     <string name="app_name">Project 3</string>
     <string name="quiz_name">The Naruto Quiz</string>
+    <string name="result">Get results</string>
+    <string name="hint">Please input text here...</string>
 
     <!-- list of all questions-->
+    <!-- Question 1-->
     <string name="question_one">1. Which Hokage sealed the nine-tailed fox inside Naruto?</string>
+        <!-- list of options in question 1-->
+        <string name="question_one_one">Kakashi Hatake</string>
+        <string name="question_one_two">Tsunade Senju</string>
+        <string name="question_one_three">Minato Namikaze</string>
+        <string name="question_one_four">Hiruzen Sarutobi</string>
+    <!-- Question 2-->
     <string name="question_two">2. Who tricked Naruto into stealing a sacred scroll?</string>
+        <!-- list of options in question 2-->
+        <string name="question_two_one">Mizuki</string>
+        <string name="question_two_two">Sasuke</string>
+        <string name="question_two_three">Iruka</string>
+        <string name="question_two_four">Zabuza</string>
+    <!-- Question 3-->
     <string name="question_three">3. Which character(s) can only use taijutsu?</string>
+        <!-- list of options in question 2-->
+        <string name="question_three_one">Gaara</string>
+        <string name="question_three_two">Rock Lee</string>
+        <string name="question_three_three">Sasuke Uchiha</string>
+        <string name="question_three_four">Gai Maito</string>
     <string name="question_four">4. Naruto is aiming to become a ...</string>
+
+
 </resources>
