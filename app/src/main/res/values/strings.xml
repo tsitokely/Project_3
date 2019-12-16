@@ -3,7 +3,7 @@
     <string name="app_name">Project 3</string>
     <string name="quiz_name">The Naruto Quiz</string>
     <string name="result">Get results</string>
-    <string name="hint">Please input text here...</string>
+    <string name="hint">Please input your response here...</string>
 
     <!-- list of all questions-->
     <!-- Question 1-->

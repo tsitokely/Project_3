@@ -2,28 +2,99 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Linear Layout Styles -->
+    <style name="LinearLayoutVerticalStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutHorizontalStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <!-- Title Styles -->
     <style name="TitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">48sp</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
 
     <style name="QuestionTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_gravity">left</item>
         <item name="android:textColor">@color/colorAccent</item>
     </style>
 
+    <!-- Question Styles -->
     <style name="QuestionTextStyle">
         <item name="android:textSize">14sp</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Control Styles -->
+    <!-- Radio Group On Questions Styles -->
+    <style name="RadioGroupOnQuestionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- Radio Button Styles -->
+    <style name="RadioButtonStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Checkbox Styles -->
+    <style name="CheckBoxStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Image View Styles -->
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- EditText View Styles -->
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Button View Styles -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">28dp</item>
     </style>
 
 </resources>
