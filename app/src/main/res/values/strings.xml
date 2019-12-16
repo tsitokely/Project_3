@@ -2,8 +2,10 @@
     <!-- General Text-->
     <string name="app_name">Project 3</string>
     <string name="quiz_name">The Naruto Quiz</string>
+    <string name="logo_description">Logo of the japanese manga Naruto</string>
     <string name="result">Get results</string>
-    <string name="hint">Please input your response here...</string>
+    <string name="hint">Please input your response here &#8230;</string>
+
 
     <!-- list of all questions-->
     <!-- Question 1-->
@@ -27,7 +29,7 @@
         <string name="question_three_two">Rock Lee</string>
         <string name="question_three_three">Sasuke Uchiha</string>
         <string name="question_three_four">Gai Maito</string>
-    <string name="question_four">4. Naruto is aiming to become a ...</string>
+    <string name="question_four">4. Naruto is aiming to become a &#8230;</string>
 
 
 </resources>

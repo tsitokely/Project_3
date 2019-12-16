@@ -9,6 +9,7 @@
 
         <ImageView
             style="@style/ImageViewStyle"
+            android:contentDescription="@string/logo_description"
             android:src="@drawable/logo_quiz" />
 
         <TextView
