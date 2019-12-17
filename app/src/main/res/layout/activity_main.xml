@@ -23,31 +23,31 @@
         <LinearLayout style="@style/LinearLayoutVerticalStyle">
 
             <RadioGroup
-                android:id="@+id/R11"
+                android:id="@+id/question_1_1_rg"
                 style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
-                    android:id="@+id/Q11"
+                    android:id="@+id/question_1_answer_1_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_one_one" />
 
                 <RadioButton
-                    android:id="@+id/Q12"
+                    android:id="@+id/question_1_answer_2_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_one_two" />
             </RadioGroup>
 
             <RadioGroup
-                android:id="@+id/R12"
+                android:id="@+id/question_1_2_rg"
                 style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
-                    android:id="@+id/Q13"
+                    android:id="@+id/question_1_answer_3_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_one_three" />
 
                 <RadioButton
-                    android:id="@+id/Q14"
+                    android:id="@+id/question_1_answer_4_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_one_four" />
             </RadioGroup>
@@ -62,31 +62,31 @@
         <LinearLayout style="@style/LinearLayoutVerticalStyle">
 
             <RadioGroup
-                android:id="@+id/R21"
+                android:id="@+id/question_2_1_rg"
                 style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
-                    android:id="@+id/Q21"
+                    android:id="@+id/question_2_answer_1_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_two_one" />
 
                 <RadioButton
-                    android:id="@+id/Q22"
+                    android:id="@+id/question_2_answer_2_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_two_two" />
             </RadioGroup>
 
             <RadioGroup
-                android:id="@+id/R22"
+                android:id="@+id/question_2_2_rg"
                 style="@style/RadioGroupOnQuestionStyle">
 
                 <RadioButton
-                    android:id="@+id/Q23"
+                    android:id="@+id/question_2_answer_3_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_two_three" />
 
                 <RadioButton
-                    android:id="@+id/Q24"
+                    android:id="@+id/question_2_answer_4_rb"
                     style="@style/RadioButtonStyle"
                     android:text="@string/question_two_four" />
             </RadioGroup>
@@ -103,12 +103,12 @@
             <LinearLayout style="@style/LinearLayoutHorizontalStyle">
 
                 <CheckBox
-                    android:id="@+id/Q31"
+                    android:id="@+id/question_3_answer_1_cb"
                     style="@style/CheckBoxStyle"
                     android:text="@string/question_three_one" />
 
                 <CheckBox
-                    android:id="@+id/Q32"
+                    android:id="@+id/question_3_answer_2_cb"
                     style="@style/CheckBoxStyle"
                     android:text="@string/question_three_two" />
             </LinearLayout>
@@ -116,12 +116,12 @@
             <LinearLayout style="@style/LinearLayoutHorizontalStyle">
 
                 <CheckBox
-                    android:id="@+id/Q33"
+                    android:id="@+id/question_3_answer_3_cb"
                     style="@style/CheckBoxStyle"
                     android:text="@string/question_three_three" />
 
                 <CheckBox
-                    android:id="@+id/Q34"
+                    android:id="@+id/question_3_answer_4_cb"
                     style="@style/CheckBoxStyle"
                     android:text="@string/question_three_four" />
             </LinearLayout>
@@ -133,7 +133,7 @@
             android:text="@string/question_four" />
 
         <EditText
-            android:id="@+id/Q4"
+            android:id="@+id/question_4_et"
             style="@style/EditTextStyle"
             android:hint="@string/hint"
             android:inputType="textCapWords" />
